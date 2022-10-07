@@ -1,0 +1,33 @@
+# Spring
+spring:
+  boot:
+    admin:
+      client:
+        url: http://localhost:8081
+
+  datasource:
+    url: jdbc:mysql://34.86.181.138:3306/fgl_produto
+    username: root
+    password: qb_>DGn3j]S8
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.zaxxer.hikari.HikariDataSource
+    hikari.connection-timeout: 3000
+    hikari.minimum-idle: 5
+    hikari.maximum-pool-size: 10
+    hikari.idle-timeout: 300000
+    hikari.max-lifetime: 120000
+    pool-name: fgl_srvc_integration_vtex
+    jpa:
+      hibernate:
+        ddl-auto: none
+  
+  vtex:
+    baseurl: https://frigelar.vtexcommercestable.com.br
+    appkey: vtexappkey-frigelar-NFVEEB
+    apptoken: HCIVKFEJVNWOEJFKQGAOTMBRQDMXBEJBAFSZODYVVXOZGZXTOZNEJTHUBRFHTHHQDVNZRGVNHFTVXBLQFSJCRFRHYXYXXRBNQYWKMYBIDZWEALWZFOBAYFZXDFATHYPQ
+
+
+
+
+
+

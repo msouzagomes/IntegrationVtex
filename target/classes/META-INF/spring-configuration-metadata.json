@@ -1,0 +1,172 @@
+{
+  "groups": [
+    {
+      "name": "spring.datasource-mysql",
+      "type": "br.com.frigelar.integracao.vtex.config.DataSourceConfigMySql",
+      "sourceType": "br.com.frigelar.integracao.vtex.config.DataSourceConfigMySql"
+    }
+  ],
+  "properties": [
+    {
+      "name": "spring.datasource-mysql.allow-pool-suspension",
+      "type": "java.lang.Boolean",
+      "sourceType": "br.com.frigelar.integracao.vtex.config.DataSourceConfigMySql"
+    },
+    {
+      "name": "spring.datasource-mysql.auto-commit",
+      "type": "java.lang.Boolean",
+      "sourceType": "br.com.frigelar.integracao.vtex.config.DataSourceConfigMySql"
+    },
+    {
+      "name": "spring.datasource-mysql.catalog",
+      "type": "java.lang.String",
+      "sourceType": "br.com.frigelar.integracao.vtex.config.DataSourceConfigMySql"
+    },
+    {
+      "name": "spring.datasource-mysql.connection-init-sql",
+      "type": "java.lang.String",
+      "sourceType": "br.com.frigelar.integracao.vtex.config.DataSourceConfigMySql"
+    },
+    {
+      "name": "spring.datasource-mysql.connection-test-query",
+      "type": "java.lang.String",
+      "sourceType": "br.com.frigelar.integracao.vtex.config.DataSourceConfigMySql"
+    },
+    {
+      "name": "spring.datasource-mysql.connection-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "br.com.frigelar.integracao.vtex.config.DataSourceConfigMySql"
+    },
+    {
+      "name": "spring.datasource-mysql.data-source-class-name",
+      "type": "java.lang.String",
+      "sourceType": "br.com.frigelar.integracao.vtex.config.DataSourceConfigMySql"
+    },
+    {
+      "name": "spring.datasource-mysql.data-source-j-n-d-i",
+      "type": "java.lang.String",
+      "sourceType": "br.com.frigelar.integracao.vtex.config.DataSourceConfigMySql"
+    },
+    {
+      "name": "spring.datasource-mysql.data-source-properties",
+      "type": "java.util.Properties",
+      "sourceType": "br.com.frigelar.integracao.vtex.config.DataSourceConfigMySql"
+    },
+    {
+      "name": "spring.datasource-mysql.driver-class-name",
+      "type": "java.lang.String",
+      "sourceType": "br.com.frigelar.integracao.vtex.config.DataSourceConfigMySql"
+    },
+    {
+      "name": "spring.datasource-mysql.exception-override-class-name",
+      "type": "java.lang.String",
+      "sourceType": "br.com.frigelar.integracao.vtex.config.DataSourceConfigMySql"
+    },
+    {
+      "name": "spring.datasource-mysql.health-check-properties",
+      "type": "java.util.Properties",
+      "sourceType": "br.com.frigelar.integracao.vtex.config.DataSourceConfigMySql"
+    },
+    {
+      "name": "spring.datasource-mysql.health-check-registry",
+      "type": "java.lang.Object",
+      "sourceType": "br.com.frigelar.integracao.vtex.config.DataSourceConfigMySql"
+    },
+    {
+      "name": "spring.datasource-mysql.idle-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "br.com.frigelar.integracao.vtex.config.DataSourceConfigMySql"
+    },
+    {
+      "name": "spring.datasource-mysql.initialization-fail-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "br.com.frigelar.integracao.vtex.config.DataSourceConfigMySql"
+    },
+    {
+      "name": "spring.datasource-mysql.isolate-internal-queries",
+      "type": "java.lang.Boolean",
+      "sourceType": "br.com.frigelar.integracao.vtex.config.DataSourceConfigMySql"
+    },
+    {
+      "name": "spring.datasource-mysql.jdbc-url",
+      "type": "java.lang.String",
+      "sourceType": "br.com.frigelar.integracao.vtex.config.DataSourceConfigMySql"
+    },
+    {
+      "name": "spring.datasource-mysql.leak-detection-threshold",
+      "type": "java.lang.Long",
+      "sourceType": "br.com.frigelar.integracao.vtex.config.DataSourceConfigMySql"
+    },
+    {
+      "name": "spring.datasource-mysql.max-lifetime",
+      "type": "java.lang.Long",
+      "sourceType": "br.com.frigelar.integracao.vtex.config.DataSourceConfigMySql"
+    },
+    {
+      "name": "spring.datasource-mysql.maximum-pool-size",
+      "type": "java.lang.Integer",
+      "sourceType": "br.com.frigelar.integracao.vtex.config.DataSourceConfigMySql"
+    },
+    {
+      "name": "spring.datasource-mysql.metric-registry",
+      "type": "java.lang.Object",
+      "sourceType": "br.com.frigelar.integracao.vtex.config.DataSourceConfigMySql"
+    },
+    {
+      "name": "spring.datasource-mysql.metrics-tracker-factory",
+      "type": "com.zaxxer.hikari.metrics.MetricsTrackerFactory",
+      "sourceType": "br.com.frigelar.integracao.vtex.config.DataSourceConfigMySql"
+    },
+    {
+      "name": "spring.datasource-mysql.minimum-idle",
+      "type": "java.lang.Integer",
+      "sourceType": "br.com.frigelar.integracao.vtex.config.DataSourceConfigMySql"
+    },
+    {
+      "name": "spring.datasource-mysql.password",
+      "type": "java.lang.String",
+      "sourceType": "br.com.frigelar.integracao.vtex.config.DataSourceConfigMySql"
+    },
+    {
+      "name": "spring.datasource-mysql.pool-name",
+      "type": "java.lang.String",
+      "sourceType": "br.com.frigelar.integracao.vtex.config.DataSourceConfigMySql"
+    },
+    {
+      "name": "spring.datasource-mysql.read-only",
+      "type": "java.lang.Boolean",
+      "sourceType": "br.com.frigelar.integracao.vtex.config.DataSourceConfigMySql"
+    },
+    {
+      "name": "spring.datasource-mysql.register-mbeans",
+      "type": "java.lang.Boolean",
+      "sourceType": "br.com.frigelar.integracao.vtex.config.DataSourceConfigMySql"
+    },
+    {
+      "name": "spring.datasource-mysql.scheduled-executor",
+      "type": "java.util.concurrent.ScheduledExecutorService",
+      "sourceType": "br.com.frigelar.integracao.vtex.config.DataSourceConfigMySql"
+    },
+    {
+      "name": "spring.datasource-mysql.schema",
+      "type": "java.lang.String",
+      "sourceType": "br.com.frigelar.integracao.vtex.config.DataSourceConfigMySql"
+    },
+    {
+      "name": "spring.datasource-mysql.transaction-isolation",
+      "type": "java.lang.String",
+      "sourceType": "br.com.frigelar.integracao.vtex.config.DataSourceConfigMySql"
+    },
+    {
+      "name": "spring.datasource-mysql.username",
+      "type": "java.lang.String",
+      "sourceType": "br.com.frigelar.integracao.vtex.config.DataSourceConfigMySql"
+    },
+    {
+      "name": "spring.datasource-mysql.validation-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "br.com.frigelar.integracao.vtex.config.DataSourceConfigMySql"
+    }
+  ],
+  "hints": []
+}

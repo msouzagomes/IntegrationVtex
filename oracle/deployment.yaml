@@ -1,0 +1,24 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+#kind: Pod
+metadata:
+  name: "fgl_srvc_integration_products"
+  namespace: "default"
+  labels:
+    app: "fgl_srvc_integration_products"
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: "fgl_srvc_integration_products"
+  template:
+    metadata:
+      labels:
+        app: "fgl_srvc_integration_products"
+    spec:
+      containers:
+        - name: fgl_srvc_integration_products
+          image: gcr.io/cerc-homolog/fgl_srvc_integration_products:0.0.1
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 80

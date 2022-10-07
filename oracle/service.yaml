@@ -1,0 +1,17 @@
+---
+apiVersion: "v1"
+kind: "Service"
+metadata:
+  name: "fgl_srvc_integration_products"
+  namespace: "default"
+  labels:
+    app: "fgl_srvc_integration_products"
+spec:
+  ports:
+  - protocol: "TCP"
+    port: 80
+    targetPort: 9091
+  selector:
+    app: "fgl_srvc_integration_products"
+  type: "LoadBalancer"
+  loadBalancerIP: ""

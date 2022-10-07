@@ -1,0 +1,7 @@
+service: fgl-srvc-integration-vtex
+runtime: java11
+
+instance_class: F2
+
+env_variables:
+  SPRING_PROFILES_ACTIVE: dev
